@@ -1,6 +1,8 @@
-cd Maryna - To go to the folder Maryna. - Перейти в папку Марина
+cd Desktop/Maryna - To go to the folder Maryna. - Перейти в папку Марина
 
 Когда файлы будут добавлены ли изменены.
+
+git status - чтобы узнавать какие файлы изменены
 
 git add названиеФайла - чтобы положить файл "в руку"
 
