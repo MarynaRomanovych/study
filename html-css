@@ -83,3 +83,19 @@ h1 {
         </ol>
     </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Изображение-ссылка</title>ССЫЛКА С МАЛЕНЬКОГО ИЗБ НА БОЛЬШОЕ
+    </head>
+    <body>
+        <h1>Дон Кексоне</h1>
+        <a href="/assets/course4/img1.jpg">
+            <img src="/assets/course4/img1_small.jpg">
+        </a>
+    </body>
+</html>
