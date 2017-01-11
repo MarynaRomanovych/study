@@ -1,0 +1,58 @@
+Связываем подпись и поле по id [5/18]
+
+Иногда обернуть поле и текст подписи в тег <label> нельзя. Например, когда они размещены в разных ячейках таблицы.
+
+В этом случае можно связать подпись с полем с помощью атрибута id. Алгоритм такой:
+
+Добавляем к полю ввода идентификатор с помощью атрибута id.
+
+Оборачиваем текст подписи в тег <label>.
+
+Добавляем тегу <label> атрибут for.
+
+В атрибут for записываем такое же значение, что и в атрибуте id у поля.
+
+Например:
+
+<label for="user-field-id">Имя пользователя</label>
+...
+много-много других тегов
+...
+<input id="user-field-id" type="text" name="username">
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Испытание: редактирование профиля</title>
+    </head>
+    <body>
+        <h1>Профиль</h1>
+
+        <form action="https://echo.htmlacademy.ru" method="post">
+            <label>
+            Ваш пол:
+            <input type="radio" name="question-one"value="p"> Мужской <input type="radio" name="question-one"value="p"checked> Женский
+            <br>Месяц и год рождения:
+            <br><select>
+            <option value="january">Январь</option>
+            </select>
+            <select>
+            <option value="1990">1990</option>
+            </select>
+            <br>Знакомые технологии:
+            <br><select multiple size="4">
+            <option>HTML</option>
+            <option selected>CSS</option>
+            <option>JavaScript</option>
+            <option>Node.js</option>
+            </select multiple>
+            <br>Фото:<input type="submit" value="Choose file">No file selected
+            </input>
+            <br><input type="submit" value="Сохранить">
+            </label>
+        </form>
+    </body>
+</html>
