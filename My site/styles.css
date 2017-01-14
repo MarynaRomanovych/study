@@ -1,0 +1,44 @@
+/*footer, header, main,
+.row div {
+	border: 1px solid black;
+}*/
+
+
+
+.content-title {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.right-side-image {
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer-content {
+	border: 0px solid white !important;
+}
+
+header {
+	background-color: #42f4eb;
+	border-radius: 5px;
+}
+
+header > div {
+	border-right: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header > div:last-child {
+	border-right: 0px;
+}
+header > div:not(:first-child) {
+	text-align: center;
+}
+
+header > .col-sm-2:hover {
+	background-color: lightblue;
+	cursor: pointer;	
+}
